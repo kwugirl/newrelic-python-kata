@@ -28,21 +28,17 @@ Set the "transaction_tracer.transaction_threshold" to 0.2
 
 Set the NEW_RELIC_CONFIG_FILE environment variable.
 
-     export NEW_RELIC_CONFIG_FILE=newrelic.ini 
-     
+     export NEW_RELIC_CONFIG_FILE=newrelic.ini
+
 Step 4
 ------
-Initialize the database.
-
-     python initialize_db.py
-
 Start the app.
 
      newrelic-admin run-python manage.py run_gunicorn
 
 Step 5
 -------
-Fix the code / Solve as many of the Katas as you can. 
+Fix the code / Solve as many of the Katas as you can.
 
 1. Access the application http://localhost:8000
 2. Generate traffic a.k.a. click around.

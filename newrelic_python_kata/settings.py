@@ -55,7 +55,7 @@ MANAGERS = ADMINS
 # See: https://docs.djangoproject.com/en/dev/ref/settings/#databases
 db_url = get_db_url()
 DATABASES = {'default': dj_database_url.parse(db_url)}
-DATABASES['default']['ENGINE'] = 'django.db.backends.postgresql_psycopg2'
+DATABASES['default']['ENGINE'] = 'django.db.backends.sqlite3'
 ########## END DATABASE CONFIGURATION
 
 

@@ -13,7 +13,6 @@ urlpatterns = patterns('',
     url(r'^kata1/$', 'employees.views.list', name='list'),
     url(r'^kata2/$', 'employees.views.filtering', name='query'),
     url(r'^kata3/$', 'factorial.views.factorial_h', name='factorial'),
-    url(r'^kata4/$', 'weather.views.weather', name='weather'),
 
     # Examples:
     # url(r'^newrelic_python_kata/', include('newrelic_python_kata.foo.urls')),
